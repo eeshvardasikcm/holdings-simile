@@ -3,11 +3,11 @@
 # Copyright 2023 EeshvarDasIKCM (Erik Douglas Ward, eeshvardasikcm, Eeshvar Das)
 #
 cmake_minimum_required(VERSION 3.26)
-project(holdingsSimile_simile)
+project(holdings_simile)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(holdingsSimile_simile main.cpp
+add_executable(holdings_simile main.cpp
         holdingsSimile.cpp
         holdingsSimile.h
         theorySimile.cpp
