@@ -1,0 +1,28 @@
+cmake_minimum_required(VERSION 3.26)
+project(holdingsSimile_simile)
+
+set(CMAKE_CXX_STANDARD 23)
+
+add_executable(holdingsSimile_simile main.cpp
+        holdingsSimile.cpp
+        holdingsSimile.h
+        theorySimile.cpp
+        theorySimile.h
+        kshetra_simile.h
+        point_simile.cpp
+        point_simile.h
+        definition.cpp
+        definition.h
+        dictionary.cpp
+        dictionary.h
+        board.cpp
+        board.h
+        super.cpp
+        super.h
+        modifier.cpp
+        modifier.h
+        html.cpp
+        html.h
+        triangle_simile.cpp
+        triangle_simile.h
+)
