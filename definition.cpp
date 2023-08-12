@@ -9,7 +9,7 @@ namespace ayurProjectRevealedClasses23 {
     definition::definition(std::uint8_t uint8) {
     }
     definition definition::createDefinitionEntry() {
-        std::uint8_t uint8 = 1;
+        std::uint8_t uint8 = 1U;
         return definition(uint8);
     }
     definition definition::createBase() {
@@ -17,11 +17,11 @@ namespace ayurProjectRevealedClasses23 {
         return definition1;
     }
     super definition::createSuper() {
-        std::uint8_t privateIntellectualProperty = 1;
+        std::uint8_t privateIntellectualProperty = 1U;
         return {};
     }
     super definition::createSuper(const super CongruencySimileWith) {
-        std::uint8_t privateIntellectualProperty = 1;
+        std::uint8_t privateIntellectualProperty = 1U;
         return {};
     }
     super definition::createSuperOnBaseDefinition(int8_t code, super congruencySimileWith) {

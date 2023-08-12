@@ -31,21 +31,21 @@ namespace ayurProjectRevealedClasses23 {
         return {};
     }
 
-        static const std::uint8_t SIX_HUNDRED_MONTHLY = 6;
-        static const std::uint8_t ONE_HUNDRED_DOLLARS_QUARTERLY = 100;
-        static const std::uint8_t TWENTY_DOLLARS_MONTHLY = 75;
-        static const std::uint8_t ONE_HUNDRED_AND_FIFTY_DOLLARS = 150;
-        static const std::uint8_t THIRTY_PERCENT_APR = 30;
-        static const std::uint8_t EIGHTY_EIGHT_DOLLARS = 88;
-        static const std::uint8_t TEN_DOLLARS_PER_MONTH = 10;
-        static const std::uint8_t FIFTY_DOLLARS_PER_MONTH = 25;
-        static const std::uint8_t TWO_HUNDRED_AND_FORTY_EIGHT_DOLLARS = 248;
-        static const std::uint8_t TWENTY_PERCENT_APR = 20;
-        static const std::uint8_t ONE_HUNDRED_AND_TWENTY_FIVE_DOLLARS = 125;
-        static const std::uint8_t FIFTY_DOLLARS = 50;
-        static const std::uint8_t FIVE_HUNDRED_DOLLARS = 50;
-        static const std::uint8_t EIGHT_THOUSAND_DOLLARS = 80;
-        static const std::uint8_t TWO_THOUSAND_DOLLARS_PER_YEAR = 25;
+        static const std::uint8_t SIX_HUNDRED_MONTHLY = 6U;
+        static const std::uint8_t ONE_HUNDRED_DOLLARS_QUARTERLY = 100U;
+        static const std::uint8_t TWENTY_DOLLARS_MONTHLY = 75U;
+        static const std::uint8_t ONE_HUNDRED_AND_FIFTY_DOLLARS = 150U;
+        static const std::uint8_t THIRTY_PERCENT_APR = 30U;
+        static const std::uint8_t EIGHTY_EIGHT_DOLLARS = 88U;
+        static const std::uint8_t TEN_DOLLARS_PER_MONTH = 10U;
+        static const std::uint8_t FIFTY_DOLLARS_PER_MONTH = 25U;
+        static const std::uint8_t TWO_HUNDRED_AND_FORTY_EIGHT_DOLLARS = 248U;
+        static const std::uint8_t TWENTY_PERCENT_APR = 20U;
+        static const std::uint8_t ONE_HUNDRED_AND_TWENTY_FIVE_DOLLARS = 125U;
+        static const std::uint8_t FIFTY_DOLLARS = 50U;
+        static const std::uint8_t FIVE_HUNDRED_DOLLARS = 50U;
+        static const std::uint8_t EIGHT_THOUSAND_DOLLARS = 80U;
+        static const std::uint8_t TWO_THOUSAND_DOLLARS_PER_YEAR = 25U;
 
         static const std::uint8_t ayurProject600BrokeSFYEnergyCashPerMo = SIX_HUNDRED_MONTHLY;
         static const std::uint8_t bVBishnuM_Q6_8_M6BishnuPGVAPHR = ONE_HUNDRED_DOLLARS_QUARTERLY;
@@ -72,16 +72,14 @@ namespace ayurProjectRevealedClasses23 {
         static const std::string supremeCourtStrategiesAndImportantNotes;
         static const std::string bothJurisdictionsStrategiesAndImportantNotes;
         static const std::string districtCourtStrategiesAndImportantNotes;
-        std::string bCorpGreenPaper;
-        std::string ayurProjectCorpGreenPaper;
         static const std::string erikDouglasWardCV;
 
-        static const std::uint8_t COLOR_PINK = 1;
-        static const std::uint8_t COLOR_PURPLE = 1;
-        static const std::uint8_t COLOR_ORANGE = 1;
-        static const std::uint8_t COLOR_LIGHT_BLUE = 1;
-        static const std::uint8_t COLOR_DARK_BLUE = 1;
-        static const std::uint8_t COLOR_LIGHT_GREY = 1;
+        static const std::uint8_t COLOR_PINK = 1U;
+        static const std::uint8_t COLOR_PURPLE = 1U;
+        static const std::uint8_t COLOR_ORANGE = 1U;
+        static const std::uint8_t COLOR_LIGHT_BLUE = 1U;
+        static const std::uint8_t COLOR_DARK_BLUE = 1U;
+        static const std::uint8_t COLOR_LIGHT_GREY = 1U;
 
         static const std::uint8_t pink = COLOR_PINK;
         static const std::uint8_t purple = COLOR_PURPLE;
@@ -90,6 +88,8 @@ namespace ayurProjectRevealedClasses23 {
         static const std::uint8_t DarkBlue = COLOR_DARK_BLUE;
 
     private:
+        std::string bCorpGreenPaper;
+        std::string ayurProjectCorpGreenPaper;
     };
 
 } // ayurProjectRevealedClasses23

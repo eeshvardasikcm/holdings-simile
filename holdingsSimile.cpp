@@ -440,7 +440,7 @@ namespace ayurProjectRevealedClasses23 {
                 holdingsSimileDefaultSuper,
                 targetHoldingEnergyPointSimilesType
         );
-        const pointSimile drinkHotWaterAsFastAsHumanlyPossible =
+        const pointSimile drinkHotWaterForGoodAgni =
                 ayurProjectRevealedClasses23::definition::createNewProductivityEnergyPointSimile(
                         holdingsSimileDefaultSuper,
                         holdingsSimileCreatorDefaultModifier
@@ -460,12 +460,13 @@ namespace ayurProjectRevealedClasses23 {
                 targetHoldingEnergyPointSimilesType,
                 holdingsSimileCreatorDefaultModifier
         );
-        const pointSimile ayurvedaAyurProjectGCGoal = ayurProjectRevealedClasses23::definition::createNewMokshaEnergyPointSimile(
+        const pointSimile ayurvedaAyurProjectGCGoal =
+                ayurProjectRevealedClasses23::definition::createNewMokshaEnergyPointSimile(
                 targetHoldingEnergyPointSimilesType,
                 holdingsSimileCreatorDefaultModifier
         );
         const kshetraSimile productivity = holdingsSimile::sell(drinkHotWaterUsingSankhyaYoga);
-        const kshetraSimile ayurveda = holdingsSimile::sell(drinkHotWaterAsFastAsHumanlyPossible);
+        const kshetraSimile ayurveda = holdingsSimile::sell(drinkHotWaterForGoodAgni);
         const kshetraSimile artha = holdingsSimile::sell(productivity);
     }
 } // ayurProjectRevealedClasses23`

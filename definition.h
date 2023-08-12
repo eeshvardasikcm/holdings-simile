@@ -32,7 +32,7 @@ namespace ayurProjectRevealedClasses23 {
         auto createSuperOnBaseDefinition(int8_t code, super congruencySimileWith) -> super;
     private:
         std::uint8_t dictionaryEntryCode{};
-        [[nodiscard]] auto getDictionaryLookupCode() const -> int {return dictionaryEntryCode;}
+        [[nodiscard]] auto getDictionaryLookupCode() const -> std::uint8_t {return dictionaryEntryCode;}
 
         super placeholderSuper{};
     };  // namespace ayurProject
