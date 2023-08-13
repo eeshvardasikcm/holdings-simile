@@ -10,16 +10,17 @@
 #include <utility>
 
 namespace ayurProjectRevealedClasses23 {
-    static const std::string diversification =
-            "diversification was created because of the need for sattva, rajas, and tamas to maintain "
-            "consistent fluctuation."
+    static const std::string diversificationSimile =
+            "diversificationSimile was created because of sattva, rajas, and tamas that tends to be "
+            "constantly fluctuating."
             ""
-            "diversification can apply to primaryRealObjectFocus when first understanding that there"
-            "are many qualities of a pure Vaishnava. We may want to practice as a Gaudiya Vaishnava in"
-            "a way that there is a diversified approach that may allow each one of these qualities of"
-            "a Gaudiya Vaishnava to manifest gradually, using the anukrama process."
+            "diversificationSimile can apply to developing the ayurProject understanding of the theory of "
+            "primaryRealObjectFocus. We understand that there are many qualities of a pure Vaishnava. It may"
+            "be easy to accept that as we develop our devotional service, we may have some qualities of a"
+            "Vaishnava, but not all qualities of a Vaishnava in full. diversificationSimile can apply to the current"
+            "qualities of a sadhaka."
             ""
-            "diversification can apply to any holding.";
+            "diversificationSimile can apply to any holdingsSimile.";
     static const std::string primaryRealObjectFocus =
             "convert racing sports team manager findings into ayurProject real object processing:"
             "5 (races becomes 5 times through process (short or long), or _______)"
@@ -66,7 +67,7 @@ namespace ayurProjectRevealedClasses23 {
     static const std::string pathOfSat =
             "time is the great equalizer of all truths";
     static const std::string threeGunasOfMaterialConsciousness =
-            "diversification of activities can allow for a smooth flow through all three gunas."
+            "diversificationSimile of activities can allow for a smooth flow through all three gunas."
             ""
             "ayurProjects dominant process looks like and can operate like "
             "a piano with soft white and mellow high contrast blue keys."
@@ -433,12 +434,12 @@ namespace ayurProjectRevealedClasses23 {
         );
         definition trianglePointSimile = definition::createBase();
         const super holdingsSimileDefaultSuper = ayurProjectRevealedClasses23::definition::createSuper();
-        const super targetHoldingEnergyPointSimilesType =
+        const super targetHoldingsSimileEnergyPointSimileType =
                 ayurProjectRevealedClasses23::definition::createSuper(holdingsSimileDefaultSuper);
         const modifier holdingsSimileCreatorDefaultModifier =
                 ayurProjectRevealedClasses23::definition::createAxiologyModifier(
-                holdingsSimileDefaultSuper,
-                targetHoldingEnergyPointSimilesType
+                        holdingsSimileDefaultSuper,
+                        targetHoldingsSimileEnergyPointSimileType
         );
         const pointSimile drinkHotWaterForGoodAgni =
                 ayurProjectRevealedClasses23::definition::createNewProductivityEnergyPointSimile(
@@ -452,18 +453,18 @@ namespace ayurProjectRevealedClasses23 {
                 );
         const pointSimile sarvaGoal = ayurProjectRevealedClasses23::definition::createNewArthaEnergyPointSimile(
                 holdingsSimileDefaultSuper,
-                targetHoldingEnergyPointSimilesType,
+                targetHoldingsSimileEnergyPointSimileType,
                 holdingsSimileCreatorDefaultModifier
         );
         const pointSimile arthaGoal = ayurProjectRevealedClasses23::definition::createNewArthaEnergyPointSimile(
                 holdingsSimileDefaultSuper,
-                targetHoldingEnergyPointSimilesType,
+                targetHoldingsSimileEnergyPointSimileType,
                 holdingsSimileCreatorDefaultModifier
         );
         const pointSimile ayurvedaAyurProjectGCGoal =
                 ayurProjectRevealedClasses23::definition::createNewMokshaEnergyPointSimile(
-                targetHoldingEnergyPointSimilesType,
-                holdingsSimileCreatorDefaultModifier
+                        targetHoldingsSimileEnergyPointSimileType,
+                        holdingsSimileCreatorDefaultModifier
         );
         const kshetraSimile productivity = holdingsSimile::sell(drinkHotWaterUsingSankhyaYoga);
         const kshetraSimile ayurveda = holdingsSimile::sell(drinkHotWaterForGoodAgni);
