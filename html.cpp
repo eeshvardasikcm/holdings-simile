@@ -23,14 +23,18 @@ namespace ayurProjectRevealedClasses23 {
     }
 
     std::string html::fetchFooter() {
-        return "<p>©2023 EeshvarDasIKCM (Erik Douglas Ward, EeshvarDas) AyurProject Bootstrap 0.0.8.beta2</p>";
+        return "<p>©2023 EeshvarDasIKCM (Erik Douglas Ward, EeshvarDas) AyurProject Bootstrap 0.0.8.beta3</p>";
     }
 
-    void html::printToHtmlFile(const std::string& fileNameWithoutFileExtension, const std::string& fileContents) {
+    void html::printToHtmlFile(
+            dictionary oneDictionary, const std::string& fileNameWithoutFileExtension,
+            board oneBard, const std::string& fileContents) {
         std::string filename = fileNameWithoutFileExtension + ".html";
         {
             std::ofstream outputStream(filename, std::ios::binary);
             outputStream << fileContents << '\n';
         }
     }
+
+    html::html(dictionary oneDictionary, board oneBoard) {}
 } // ayurProjectRevealedClasses23

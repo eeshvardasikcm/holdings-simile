@@ -9,6 +9,9 @@
 #include <string>
 #include "kshetra_simile.h"
 #include "point_simile.h"
+#include "dictionary.h"
+#include "board.h"
+#include "dictionary.h"
 
 namespace ayurProjectRevealedClasses23 {
 
@@ -90,6 +93,8 @@ namespace ayurProjectRevealedClasses23 {
     private:
         std::string bCorpGreenPaper;
         std::string ayurProjectCorpGreenPaper;
+        dictionary oneDictionary{};
+        board oneBoard{};
     };
 
 } // ayurProjectRevealedClasses23

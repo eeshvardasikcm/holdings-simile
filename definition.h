@@ -12,6 +12,7 @@
 #include "triangle_simile.h"
 #include "point_simile.h"
 #include "modifier.h"
+#include "board.h"
 
 namespace ayurProjectRevealedClasses23 {
 
@@ -22,7 +23,8 @@ namespace ayurProjectRevealedClasses23 {
         static auto createBase() -> definition;
         static auto createSuper() -> super;
         static auto createSuper(super CongruencySimileWith) -> super;
-        static triangleSimile createTriangleSimile(std::uint8_t baseLookupCode, std::uint8_t superLookupCode);
+        static triangleSimile createTriangleSimile(
+                dictionary oneDictionary, std::uint8_t baseLookupCode, board oneBoard, std::uint8_t superLookupCode);
         static auto createAxiologyModifier(super super1, triangleSimile super2) -> modifier;
         static auto createNewProductivityEnergyPointSimile(super super1, modifier modifier1) -> pointSimile;
         static auto createNewAyurvedaEnergyPointSimile(super super1, modifier modifier1) -> pointSimile;

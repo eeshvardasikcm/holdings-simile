@@ -28,7 +28,8 @@ namespace ayurProjectRevealedClasses23 {
         return this->createSuper();
     }
 
-    triangleSimile definition::createTriangleSimile(std::uint8_t baseLookupCode, std::uint8_t superLookupCode) {
+    triangleSimile definition::createTriangleSimile(
+            dictionary oneDictionary, std::uint8_t baseLookupCode, board oneBoard, std::uint8_t superLookupCode) {
         return {};
     }
 

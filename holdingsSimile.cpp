@@ -10,32 +10,36 @@
 #include <utility>
 
 namespace ayurProjectRevealedClasses23 {
-    static const std::string diversificationSimile =
-            "diversificationSimile was created because of sattva, rajas, and tamas that tends to be "
+    static const std::string diversificationSimilar =
+            "diversificationSimilar was created because of sattva, rajas, and tamas that tends to be "
             "constantly fluctuating."
             ""
-            "diversificationSimile can apply to developing the ayurProject understanding of the theory of "
-            "primaryRealObjectFocus. We understand that there are many qualities of a pure Vaishnava. It may"
+            "diversificationSimilar can apply to developing the ayurProject understanding of the theory of "
+            "primaryRealObjectFocusSimilar. We understand that there are many qualities of a pure Vaishnava. It may"
             "be easy to accept that as we develop our devotional service, we may have some qualities of a"
-            "Vaishnava, but not all qualities of a Vaishnava in full. diversificationSimile can apply to the current"
+            "Vaishnava, but not all qualities of a Vaishnava in full. diversificationSimilar can apply to the current"
             "qualities of a sadhaka."
             ""
-            "diversificationSimile can apply to any holdingsSimile.";
-    static const std::string primaryRealObjectFocus =
-            "convert racing sports team manager findings into ayurProject real object processing:"
-            "5 (races becomes 5 times through process (short or long), or _______)"
+            "diversificationSimilar can apply to any holdingsSimile.";
+    static const std::string primaryRealObjectFocusSimilar =
+            "convert a bad racing sports team managers findings into AyurProject 'real object processing':"
+            "5 races (races becomes 5 times through AyurProject 'process' (short or long), or _______)"
             "amount of dollars"
-            "amount of (staff becomes resources, energy or _______)"
-            "best or equal (cars becomes my body, capabilities, performance, power,"
-            "or capabilities of people with at the time, or_______)"
-            "from racing sports team manager:"
-            "driver 1 is close to winning some races."
-            "pit driver 2 based from intuition on tire wear only and quick glance at whole patra feel. no calculations."
+            "amount of staff (staff becomes 'resources', 'energy' or _______)"
+            "best or equal (cars 'becomesSimilar' to 'users' 'body', 'capabilities', 'performance', 'power',"
+            "or 'capabilities' of 'people with' 'at the time', or_______)"
+            "from a bad racing sports team manager:"
+            "driver 1 is close to winning some races:"
+            "pit driver 2 based from intuition on tire wear only,"
+            " and quick glance at whole 'patra feel'. no calculations."
             "driver 1 can use calculations."
             "favor cash usage to driver 1 and reduce cash usage to driver 2, including xp level ups, especially"
             "if funds are not very profitable."
-            "when obvious driver 1 cannot win, there is no plan, maybe try to find a different real object,"
-            "or open up to 2 or three real objects with assistance from ayurProjects dominant process."
+            "when it's obvious driver 1 cannot win, use lead pack strategies, even if it means advancing from one"
+            "pack to the next until in the lead pack behind the leader."
+            "when driver 1 can not keep up with lead pack strategy, there is no plan, "
+            "maybe try to find a different 'real object',"
+            "or open up to 2 or three 'real objects' with assistance from the 'AyurProjects dominant process'."
             ""
             "PVP:"
             "The first step to making sure you aren't an NPC is "
@@ -67,7 +71,7 @@ namespace ayurProjectRevealedClasses23 {
     static const std::string pathOfSat =
             "time is the great equalizer of all truths";
     static const std::string threeGunasOfMaterialConsciousness =
-            "diversificationSimile of activities can allow for a smooth flow through all three gunas."
+            "diversificationSimilar of activities can allow for a smooth flow through all three gunas."
             ""
             "ayurProjects dominant process looks like and can operate like "
             "a piano with soft white and mellow high contrast blue keys."
@@ -427,10 +431,11 @@ namespace ayurProjectRevealedClasses23 {
                     std::move(bCorpGreenPaper)), ayurProjectCorpGreenPaper(std::move(ayurProjectCorpGreenPaper)
                     ) {
         html::printToHtmlFile(
-                "bCorpGreenPaper", this->bCorpGreenPaper
+                oneDictionary, "bCorpGreenPaper",
+                oneBoard, this->bCorpGreenPaper
         );
         html::printToHtmlFile(
-                "ayurProjectCorpGreenPaper", this->ayurProjectCorpGreenPaper
+                oneDictionary, "ayurProjectCorpGreenPaper", oneBoard, this->ayurProjectCorpGreenPaper
         );
         definition trianglePointSimile = definition::createBase();
         const super holdingsSimileDefaultSuper = ayurProjectRevealedClasses23::definition::createSuper();
