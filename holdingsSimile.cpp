@@ -10,18 +10,22 @@
 #include <utility>
 
 namespace ayurProjectRevealedClasses23 {
-    static const std::string diversificationSimilar =
-            "diversificationSimilar was created because of sattva, rajas, and tamas that tends to be "
-            "constantly fluctuating."
-            ""
-            "diversificationSimilar can apply to developing the ayurProject understanding of the theory of "
-            "primaryRealObjectFocusSimilar. We understand that there are many qualities of a pure Vaishnava. It may"
-            "be easy to accept that as we develop our devotional service, we may have some qualities of a"
-            "Vaishnava, but not all qualities of a Vaishnava in full. diversificationSimilar can apply to the current"
-            "qualities of a sadhaka."
-            ""
-            "diversificationSimilar can apply to any holdingsSimile.";
     static const std::string primaryRealObjectFocusSimilar =
+            "my studies of C++ have not reached the point of multiplying realizations of C++ singleton."
+            "For that reason, and because the clock ticks during beta phase, "
+            "I will reserve the use of C++ singleton until I have passed that part of "
+            "my C++ certificate coursework. For now, I'm going to create a "
+            "new 'AyuProject Language' concept inside 'primaryRealObjectFocusSimilar', "
+            "that connects it to "
+            "'diversificationSimilarFirstHeaderFirstSentence'. "
+            "This new concept may behave similar to a singleton in effect."
+            "During beta of holdings-simile 0.1.0, a bug fix caused, what appears like to me to be, "
+            "a duplication of 'dictionary' and 'board'. New parameters named 'oneDictionary' and 'oneBoard' have been"
+            "added, and this new 'one[Keyword]' naming style combined with a new coding style, allows for a repeatable"
+            "coding style practice of escaping locals scope without again touching, or clearing members with ones, "
+            "after those locals or members have"
+            "been passed as a non reference parameter."
+            ""
             "convert a bad racing sports team managers findings into AyurProject 'real object processing':"
             "5 races (races becomes 5 times through AyurProject 'process' (short or long), or _______)"
             "amount of dollars"
@@ -71,7 +75,7 @@ namespace ayurProjectRevealedClasses23 {
     static const std::string pathOfSat =
             "time is the great equalizer of all truths";
     static const std::string threeGunasOfMaterialConsciousness =
-            "diversificationSimilar of activities can allow for a smooth flow through all three gunas."
+            "diversificationSimilarFirstHeaderFirstSentence of activities can allow for a smooth flow through all three gunas."
             ""
             "ayurProjects dominant process looks like and can operate like "
             "a piano with soft white and mellow high contrast blue keys."
@@ -426,17 +430,21 @@ namespace ayurProjectRevealedClasses23 {
                                                "comparable business process is discovered and can replace."
             ) +
             html::fetchFooter();
-    holdingsSimile::holdingsSimile(std::string bCorpGreenPaper, std::string ayurProjectCorpGreenPaper)
-            : bCorpGreenPaper(
-                    std::move(bCorpGreenPaper)), ayurProjectCorpGreenPaper(std::move(ayurProjectCorpGreenPaper)
-                    ) {
+    holdingsSimile::holdingsSimile() {
         html::printToHtmlFile(
-                oneDictionary, "bCorpGreenPaper",
-                oneBoard, this->bCorpGreenPaper
+                oneDictionary, this->bCorpGreenPaperTitle,
+                oneBoard, this->bCorpGreenPaperFullDocument
         );
+        this->oneDictionary.oneClear();
+        this->oneBoard.oneClear();
         html::printToHtmlFile(
-                oneDictionary, "ayurProjectCorpGreenPaper", oneBoard, this->ayurProjectCorpGreenPaper
+                oneDictionary,
+                ayurProjectCorpGreenPaperTitle,
+                oneBoard,
+                ayurProjectCorpGreenPaperFullDocument
         );
+        this->oneDictionary.oneClear();
+        this->oneBoard.oneClear();
         definition trianglePointSimile = definition::createBase();
         const super holdingsSimileDefaultSuper = ayurProjectRevealedClasses23::definition::createSuper();
         const super targetHoldingsSimileEnergyPointSimileType =

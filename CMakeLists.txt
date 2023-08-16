@@ -29,4 +29,6 @@ add_executable(holdings_simile main.cpp
         html.h
         triangle_simile.cpp
         triangle_simile.h
+        one_clearable.cpp
+        one_clearable.h
 )

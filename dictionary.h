@@ -6,12 +6,12 @@
 #ifndef HOLDINGS_SIMILE_DICTIONARY_H
 #define HOLDINGS_SIMILE_DICTIONARY_H
 
+#include "one_clearable.h"
 #include <cstdint>
 
 namespace ayurProjectRevealedClasses23 {
 
-    class dictionary {
-        std::uint8_t privateIntellectualProperty;
+    class dictionary : public oneClearable {
     };
 
 } // ayurProjectRevealedClasses23

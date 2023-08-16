@@ -6,26 +6,23 @@
 #ifndef HOLDINGS_SIMILE_THEORY_SIMILE_H
 #define HOLDINGS_SIMILE_THEORY_SIMILE_H
 
-#include <string>
 #include "kshetra_simile.h"
 #include "point_simile.h"
 #include "dictionary.h"
 #include "board.h"
 #include "dictionary.h"
+#include "html.h"
+#include <array>
 
 namespace ayurProjectRevealedClasses23 {
 
     class holdingsSimile {
     public:
-        holdingsSimile(std::string bCorpGreenPaper, std::string ayurProjectCorpGreenPaper);
+        holdingsSimile();
 
-        static void energy() {
+        static void energy() {}
 
-        }
-
-        static void ledger() {
-
-        }
+        static void ledger() {}
 
         static kshetraSimile sell(pointSimile energyPoint) {
             return {};
@@ -90,11 +87,43 @@ namespace ayurProjectRevealedClasses23 {
         static const std::uint8_t lightBlue = COLOR_LIGHT_BLUE;
         static const std::uint8_t DarkBlue = COLOR_DARK_BLUE;
 
+
     private:
-        std::string bCorpGreenPaper;
-        std::string ayurProjectCorpGreenPaper;
+        const std::array<char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH> bCorpGreenPaperTitle =
+                {"EeshvarDasIKCM Generalized B Corp Green Paper (beta)"};
+        const
+        std::array<std::array<
+        char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH>, html::BOOTSTRAP_DOCUMENT_TOTAL_PARTS_INCLUDING_META_ZERO>
+                bCorpGreenPaperFullDocument = {"", bCorpGreenPaperTitle};
+        const std::array<char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH> ayurProjectCorpGreenPaperTitle
+                {"EeshvarDasIKCM AyurProject B Corp Green Paper (beta)"};
+        const
+        std::array<std::array<
+        char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH>, html::BOOTSTRAP_DOCUMENT_TOTAL_PARTS_INCLUDING_META_ZERO>
+        ayurProjectCorpGreenPaperFullDocument = {"", ayurProjectCorpGreenPaperTitle};
         dictionary oneDictionary{};
         board oneBoard{};
+        const std::array<char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH> diversificationSimilarFirstHeaderFirstSentence =
+                {"'diversificationSimilarFirstHeaderFirstSentence' was created "
+                 "because of how sattva, rajas, and tamas tend to be "
+                "constantly fluctuating in the sadhaka. "};
+        const std::array<char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH> diversificationSimilarFirstHeaderSecondSentence =
+                {"By acknowledging ones own capability to have more control "
+                 "over the gunas, one may see how the term diversification may apply to the three gunas."};
+        const std::array<char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH> diversificationSimilarFirstHeaderThirdSentence =
+                {"'diversificationSimilarFirstHeaderFirstSentence' "
+                 "can apply to developing the ayurProject understanding of "
+                 "the AyurProject Language theory of 'primaryRealObjectFocusSimilar'."};
+        const std::array<char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH> diversificationSimilarSecondHeaderFirstSentence =
+                {"We understand that there are many qualities of a pure Vaishnava. It may "
+                "be easy to accept that as we develop our devotional service, we may have some qualities of a"
+                "Vaishnava, but not all qualities of a Vaishnava in full. "};
+        const std::array<char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH> diversificationSimilarThirdHeader =
+                {"'diversificationSimilarFirstHeaderFirstSentence' "
+                 "can likely be construed to apply to any holdingsSimile."};
+        const std::array<char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH> diversificationSimilarThirdHeaderFirstSentence =
+                {"'diversificationSimilarFirstHeaderFirstSentence' can also apply to "
+                 "the current qualities of a sadhaka."};
     };
 
 } // ayurProjectRevealedClasses23

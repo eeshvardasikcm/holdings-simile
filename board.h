@@ -6,11 +6,12 @@
 #ifndef HOLDINGS_SIMILE_BOARD_H
 #define HOLDINGS_SIMILE_BOARD_H
 
+#include "one_clearable.h"
 #include <cstdint>
 
 namespace ayurProjectRevealedClasses23 {
 
-    class board {
+class board : public oneClearable {
         std::uint8_t privateIntellectualProperty;
     };
 
