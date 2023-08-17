@@ -25,7 +25,7 @@ namespace ayurProjectRevealedClasses23 {
     }
 
     std::string html::fetchFooter() {
-        return "<p>©2023 EeshvarDasIKCM (Erik Douglas Ward, EeshvarDas) AyurProject Bootstrap 0.0.8.beta3</p>";
+        return "<p>©2023 EeshvarDasIKCM (Erik Douglas Ward, EeshvarDas) AyurProject Bootstrap 0.1.0 (beta)</p>";
     }
 
     void html::printToHtmlFile(
@@ -40,7 +40,7 @@ namespace ayurProjectRevealedClasses23 {
     ) {
         std::array<std::array<
                 char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH>,
-                3U>
+                BOOTSTRAP_FILE_NAME_FULL_PARTS_INCLUDING_META_ZERO>
                 fileName = {"", fileNameWithoutFileExtension, html::BOOTSTRAP_FILE_EXTENSION_HTML};
         {
             std::ofstream outputStream(
@@ -55,7 +55,7 @@ namespace ayurProjectRevealedClasses23 {
 
     const std::array<char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH> html::stringToBootstrapArray(std::string source) {
             char targetAsCharArray[BOOTSTRAP_SENTENCE_MAX_LENGTH];
-        for (std::uint8_t i = 0; source.size(); ++i)
+        for (std::uint8_t i = 0U; source.size(); ++i)
             targetAsCharArray[i] = source[i];
         std::array<char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH> targetAsArray;
         std::memcpy (
@@ -102,7 +102,7 @@ namespace ayurProjectRevealedClasses23 {
         std::string fileBodyPart = fileContents[BOOTSTRAP_FILE_EXTENSION_PART].data();
         std::string fullFileContentsAsString = fileTitlePart + fileBodyPart;
         char fullFileContentsAsCharArray [BOOTSTRAP_SENTENCE_MAX_LENGTH];
-        for (std::uint8_t i=0; fullFileContentsAsString.size(); ++i)
+        for (std::uint8_t i=0U; fullFileContentsAsString.size(); ++i)
             fullFileContentsAsCharArray[i] = fullFileContentsAsString[i];
         std::array<char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH> fullFileContentsAsArray;
         std::memcpy (

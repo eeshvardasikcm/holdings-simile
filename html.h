@@ -54,6 +54,22 @@ namespace ayurProjectRevealedClasses23 {
     private:
         static const std::uint8_t BOOTSTRAP_FILE_NAME_PART = 1U;
         static const std::uint8_t BOOTSTRAP_FILE_EXTENSION_PART = 2U;
+        static const std::string AYURPROJECT_SYNC_SPECIFICATION_PUBLISHING_BETA =
+                "ayurproject_sync_specification_publishing_beta";
+        static const std::uint8_t BOOTSTRAP_DOCUMENT_TITLE_PART = 1U;
+        static const std::uint8_t BOOTSTRAP_DOCUMENT_SUB_TITLE_PART = 2U;
+        static const std::uint8_t BOOTSTRAP_DOCUMENT_FIRST_HEADER_PART = 3U;
+        static const std::uint8_t BOOTSTRAP_DOCUMENT_FIRST_HEADER_FIRST_SENTENCE_PART = 4U;
+        static const std::uint8_t BOOTSTRAP_DOCUMENT_FIRST_HEADER_SECOND_SENTENCE_PART = 5U;
+        static const std::uint8_t BOOTSTRAP_DOCUMENT_FIRST_HEADER_THIRD_SENTENCE_PART = 6U;
+        static const std::uint8_t BOOTSTRAP_DOCUMENT_SECOND_HEADER_PART = 7U;
+        static const std::uint8_t BOOTSTRAP_DOCUMENT_SECOND_HEADER_FIRST_SENTENCE_PART = 8U;
+        static const std::uint8_t BOOTSTRAP_DOCUMENT_SECOND_HEADER_SECOND_SENTENCE_PART = 9U;
+        static const std::uint8_t BOOTSTRAP_DOCUMENT_SECOND_HEADER_THIRD_SENTENCE_PART = 10U;
+        static const std::uint8_t BOOTSTRAP_DOCUMENT_THIRD_HEADER_PART = 11U;
+        static const std::uint8_t BOOTSTRAP_DOCUMENT_THIRD_HEADER_FIRST_SENTENCE_PART = 12U;
+        static const std::uint8_t BOOTSTRAP_DOCUMENT_THIRD_HEADER_SECOND_SENTENCE_PART = 13U;
+        static const std::uint8_t BOOTSTRAP_DOCUMENT_THIRD_HEADER_THIRD_SENTENCE_PART = 14U;
 
         static std::string getFullFileContentsAsString(
                 const std::array<std::array<
@@ -67,7 +83,7 @@ namespace ayurProjectRevealedClasses23 {
                         html::BOOTSTRAP_DOCUMENT_TOTAL_PARTS_INCLUDING_META_ZERO>
                 fileContents);
 
-        static const std::array<char, 235> stringToBootstrapArray(std::string source);
+        static const std::array<char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH> stringToBootstrapArray(std::string source);
     };
 
 } // ayurProjectRevealedClasses23
