@@ -54,7 +54,7 @@ namespace ayurProjectRevealedClasses23 {
     private:
         static const std::uint8_t BOOTSTRAP_FILE_NAME_PART = 1U;
         static const std::uint8_t BOOTSTRAP_FILE_EXTENSION_PART = 2U;
-        static const std::string AYURPROJECT_SYNC_SPECIFICATION_PUBLISHING_BETA =
+        std::string AYURPROJECT_SYNC_SPECIFICATION_PUBLISHING_BETA =
                 "ayurproject_sync_specification_publishing_beta";
         static const std::uint8_t BOOTSTRAP_DOCUMENT_TITLE_PART = 1U;
         static const std::uint8_t BOOTSTRAP_DOCUMENT_SUB_TITLE_PART = 2U;
