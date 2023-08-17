@@ -83,6 +83,11 @@ namespace ayurProjectRevealedClasses23 {
                         html::BOOTSTRAP_DOCUMENT_TOTAL_PARTS_INCLUDING_META_ZERO>
                 fileContents);
 
+        static std::array<std::array<
+        char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH>,
+        html::BOOTSTRAP_DOCUMENT_TOTAL_PARTS_INCLUDING_META_ZERO>
+        bootstrapDocument;
+
         static const std::array<char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH> stringToBootstrapArray(std::string source);
     };
 
