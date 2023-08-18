@@ -384,52 +384,6 @@ namespace ayurProjectRevealedClasses23 {
             "other companies can not do."
             "Question:"
             "Are you satisfied by maximizing financing yield beyond the financial capabilities of ayurProject?";
-    const std::string bCorpGreenPaper =
-            ayurProjectRevealedClasses23::html::createNewMeta("EeshvarDasIKCM or AyurProject B Corp Green Paper") +
-                    ayurProjectRevealedClasses23::html::createNewHeaderOneWithBody(
-                    "I am more like a gen Y because, unlike most gen X and gen Y,"
-                    "I favored spiritual advance at the sacrifice of financial advance, deep into my life."
-                    "Complete Paperwork. "
-                    "Start with EeshvarDasIKCM LLC and "
-                    "file business paperwork one at a time"
-                    "until able to create a new "
-                    "AyurProject B Corp.") +
-    html::createNewHeaderTwoWithBody("") +
-    html::createNewHeaderThreeWithBody("") +
-    html::fetchFooter();
-    const std::string ayurProjectCorpGreenPaper =
-            html::createNewMeta("AyurProject AyurCorp Green Paper") +
-            html::createNewHeaderOneWithBody("Used initially as founding business documentation for"
-                                             "EeshvarDasIKCM LLC. except with "
-                                             "the term AyurProject not yet used."
-            ) +
-            html::createNewHeaderTwoWithBody("Define AyurProject Constitution created with "
-                                             "branches that "
-                                             "simulate government process."
-                                             "Erik Douglas Ward (EeshvarDasIKCM, EeshvarDasIKCM LLC, Eeshvar Das)"
-                                             "remains as CEO of AyurProject B Corporation"
-                                             "even if an angel investor system or similar investor system"
-                                             "would normally allow an outside investor to take executive "
-                                             "control of AyurProject B Corporation."
-                                             "In efforts to maintain EeshvarDasIKCM as majority shareholder,"
-                                             "a business plan and business system is to be designed"
-                                             "step by step that "
-                                             "allows EeshvarDasIKCM to maintain that actual monetary"
-                                             "majority ownership of AyurProject B Corporation."
-                                             "A proper simulated judicial and simulated government federal process"
-                                             "needs to be created to allow some other person or group of other"
-                                             "people to earn the right to become majority share holder."
-                                             "The future of Ayurveda in the United States and in the world"
-                                             "Should continue to follow the true principles and teaching of "
-                                             "Ayurveda without modification and any high ranking representative of "
-                                             "AyurProject B Corporation should be able to execute their position"
-                                             "in AyurProject by consistently using such discretion for the "
-                                             "proper continuance of Ayurveda as it always has been."
-            ) +
-            html::createNewHeaderThreeWithBody("Follow until "
-                                               "comparable business process is discovered and can replace."
-            ) +
-            html::fetchFooter();
     holdingsSimile::holdingsSimile() {
         html::printToHtmlFile(
                 oneDictionary, this->bCorpGreenPaperTitle,

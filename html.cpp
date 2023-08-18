@@ -12,15 +12,15 @@ namespace ayurProjectRevealedClasses23 {
         return "<p>" + std::string(string) + "</p>";
     }
 
-    std::string html::createNewHeaderOneWithBody(const char *string) {
+    std::string html::createFirstHeaderWithBody(const char *string) {
         return "<p>" + std::string(string) + "</p>";
     }
 
-    std::string html::createNewHeaderTwoWithBody(const char *string) {
+    std::string html::createSecondHeaderWithBody(const char *string) {
         return "<p>" + std::string(string) + "</p>";
     }
 
-    std::string html::createNewHeaderThreeWithBody(const char *string) {
+    std::string html::createThirdHeaderWithBody(const char *string) {
         return "<p>" + std::string(string) + "</p>";
     }
 
@@ -38,6 +38,9 @@ namespace ayurProjectRevealedClasses23 {
                     html::BOOTSTRAP_DOCUMENT_TOTAL_PARTS_INCLUDING_META_ZERO>
             fileContents
     ) {
+        createFirstHeaderWithBody();
+        createSecondHeaderWithBody();
+        createThirdHeaderWithBody();
         std::array<std::array<
                 char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH>,
                 BOOTSTRAP_FILE_NAME_FULL_PARTS_INCLUDING_META_ZERO>
