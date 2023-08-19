@@ -38,9 +38,6 @@ namespace ayurProjectRevealedClasses23 {
                     html::BOOTSTRAP_DOCUMENT_TOTAL_PARTS_INCLUDING_META_ZERO>
             fileContents
     ) {
-        createFirstHeaderWithBody();
-        createSecondHeaderWithBody();
-        createThirdHeaderWithBody();
         std::array<std::array<
                 char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH>,
                 BOOTSTRAP_FILE_NAME_FULL_PARTS_INCLUDING_META_ZERO>
@@ -50,7 +47,7 @@ namespace ayurProjectRevealedClasses23 {
                     getFullFileNameAsString(fileName),
                     std::ios::binary
             );
-            outputStream << getFullFileContentsAsString(fileContents) << '\n';
+            outputStream << getFullFileContentsAsString(fileContents, std::string()) << '\n';
         }
     }
 
@@ -86,16 +83,32 @@ namespace ayurProjectRevealedClasses23 {
         return fullFileNameAsArray;
     }
 
-    std::string html::getFullFileContentsAsString(
-            const std::array<std::array<
-                    char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH>, 
-                    html::BOOTSTRAP_DOCUMENT_TOTAL_PARTS_INCLUDING_META_ZERO>
-                    fileContents
-                    ) {
-        return getFileContents(fileContents).data();
+    void html::setFullFileContents(std::array<std::array<
+            char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH>,
+            html::BOOTSTRAP_DOCUMENT_TOTAL_PARTS_INCLUDING_META_ZERO>
+            fullFileContentsAsArray
+            ) {
+        fullFileContents = fullFileContentsAsArray;
     }
 
-    std::array<char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH> html::getFileContents(
+    std::string html::getDataFromFileContents() {
+        return getFileContentsAsArray().data();
+    }
+
+    std::string html::getFullFileContentsAsString(const std::array<std::array<
+            char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH>,
+            html::BOOTSTRAP_DOCUMENT_TOTAL_PARTS_INCLUDING_META_ZERO> fileContents) {
+        createFirstHeaderWithBody();
+        createSecondHeaderWithBody();
+        createThirdHeaderWithBody();
+        std::array<std::array<
+                char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH>,
+                html::BOOTSTRAP_DOCUMENT_TOTAL_PARTS_INCLUDING_META_ZERO> s;
+        setFullFileContents(s);
+        return getDataFromFileContents();
+    }
+
+    std::array<char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH> html::getFileContentsAsArray(
             const std::array<std::array<
                     char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH>,
                     html::BOOTSTRAP_DOCUMENT_TOTAL_PARTS_INCLUDING_META_ZERO>
@@ -115,4 +128,5 @@ namespace ayurProjectRevealedClasses23 {
                 );
         return fullFileContentsAsArray;
     }
+
 } // ayurProjectRevealedClasses23
