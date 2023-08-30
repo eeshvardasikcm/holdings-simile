@@ -6,7 +6,7 @@ Build Errors are present as warning in commit comments
 Zero production use to date
 Zero revenue to date
 -->
-# `holdings-simile` 0.1.0.beta10
+# `holdings-simile` 0.1.0.beta11
 holdingsSimile is a part of the <b>AyurProject Language</b>. Holdings Simile is released here with most implementation still remaining private and not released. Holdings Simile (holdings-simile) is copyrighted 2023 by EeshvarDasIKCM.
 ## `Simile` concept
 Similes are used in <b>AyurProject Language</b> similar to how generics are used in managed code languages. Right now, <i>holdingsSimile</i> is mostly a poetic opening because there are yet no concrete similes that ring true for my intent for the <i>holdings-simile</i>.
