@@ -112,7 +112,7 @@ namespace ayurProjectRevealedClasses23 {
                  "over the gunas, one may see how the term diversification may apply to the three gunas."};
         const std::array<char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH> diversificationSimilarFirstHeaderThirdSentence =
                 {"'diversificationSimilarFirstHeaderFirstSentence' "
-                 "can apply to developing the ayurProject understanding of "
+                 "can apply to developing the ayurvedaAndProjectManagement understanding of "
                  "the AyurProject Language theory of 'primaryRealObjectFocusSimilar'."};
         const std::array<char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH> diversificationSimilarSecondHeaderFirstSentence =
                 {"We understand that there are many qualities of a pure Vaishnava. It may "

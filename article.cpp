@@ -1,8 +1,8 @@
 //
-// Created by User on 6/18/2023.
+// Created by Erik Douglas Ward (EeshvarDasIKCM) on 6/18/2023.
 //
 
 #include "article.h"
 
-namespace ayurProject {
+namespace ayurvedaAndProjectManagement {
 } // ayurProject

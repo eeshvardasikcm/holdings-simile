@@ -1,5 +1,5 @@
 //
-// Created by User on 8/13/2023.
+// Created by Erik Douglas Ward (EeshvarDasIKCM) on 8/13/2023.
 //
 
 #ifndef HOLDINGS_SIMILE_ONE_CLEARABLE_H

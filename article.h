@@ -1,5 +1,5 @@
 //
-// Created by User on 6/18/2023.
+// Created by Erik Douglas Ward (EeshvarDasIKCM) on 6/18/2023.
 //
 
 #ifndef AYURPROJECT_CPP23_LIB_ARTICLE_H
@@ -7,7 +7,7 @@
 
 #include "../board/board.h"
 
-namespace ayurProject {
+namespace ayurvedaAndProjectManagement {
 
     class article {
         //TODO: Needs to be some loosely written c++ code here that
