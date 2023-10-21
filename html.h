@@ -132,6 +132,6 @@ namespace ayurProjectRevealedClasses23 {
                 html::BOOTSTRAP_DOCUMENT_TOTAL_PARTS_INCLUDING_META_ZERO> fullFileContentsAsArray);
     };
 
-} // ayurProjectRevealedClasses23
+} // ayurvedaAndProjectManagementRevealedClasses23
 
 #endif //HOLDINGS_SIMILE_HTML_H

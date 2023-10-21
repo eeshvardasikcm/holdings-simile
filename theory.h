@@ -13,6 +13,6 @@ namespace ayurvedaAndProjectManagement {
 
     };
 
-} // ayurProject
+} // ayurvedaAndProjectManagement
 
 #endif //AYURVEDA_AND_PROJECT_MANAGEMENT_THEORY_H

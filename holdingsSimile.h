@@ -181,6 +181,6 @@ namespace ayurProjectRevealedClasses23 {
 
     };
 
-} // ayurProjectRevealedClasses23
+} // ayurvedaAndProjectManagementRevealedClasses23
 
 #endif //HOLDINGS_SIMILE_THEORY_SIMILE_H

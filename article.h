@@ -16,6 +16,6 @@ namespace ayurvedaAndProjectManagement {
         // that a board adapter specification can receive the article.
     };
 
-} // ayurProject
+} // ayurvedaAndProjectManagement
 
 #endif //AYURPROJECT_CPP23_LIB_ARTICLE_H

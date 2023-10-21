@@ -14,6 +14,6 @@ namespace ayurProjectRevealedClasses23 {
     class dictionary : public oneClearable {
     };
 
-} // ayurProjectRevealedClasses23
+} // ayurvedaAndProjectManagementRevealedClasses23
 
 #endif //HOLDINGS_SIMILE_DICTIONARY_H

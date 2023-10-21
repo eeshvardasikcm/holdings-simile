@@ -15,6 +15,6 @@ class board : public oneClearable {
         std::uint8_t privateIntellectualProperty;
     };
 
-} // ayurProjectRevealedClasses23
+} // ayurvedaAndProjectManagementRevealedClasses23
 
 #endif //HOLDINGS_SIMILE_BOARD_H

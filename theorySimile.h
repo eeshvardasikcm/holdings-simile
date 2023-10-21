@@ -16,6 +16,6 @@ namespace ayurProjectRevealedClasses23 {
         std::uint8_t privateIntellectualProperty;
     };
 
-} // ayurProjectPrivate
+} // ayurvedaAndProjectManagementPrivate
 
 #endif //HOLDINGS_SIMILE_THEORY_SIMILE_H

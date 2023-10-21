@@ -6,4 +6,4 @@
 #include "theorySimile.h"
 
 namespace ayurProjectPrivate {
-} // ayurProjectPrivate
+} // ayurvedaAndProjectManagementPrivate

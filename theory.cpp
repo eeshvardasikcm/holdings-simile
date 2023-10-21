@@ -5,4 +5,4 @@
 #include "theory.h"
 
 namespace ayurvedaAndProjectManagement {
-} // ayurProject
+} // ayurvedaAndProjectManagement
