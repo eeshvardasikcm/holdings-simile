@@ -6,6 +6,6 @@
 
 namespace ayurProjectRevealedClasses23 {
     void oneClearable::oneClear() {
-        privateIntellectualProperty = 1U;
+        privateIntellectualProperty = ayurvedaAndProjectManagement::instruction::stop();
     }
 } // ayurvedaAndProjectManagementRevealedClasses23

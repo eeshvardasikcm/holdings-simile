@@ -5,6 +5,7 @@
 #ifndef HOLDINGS_SIMILE_ONE_CLEARABLE_H
 #define HOLDINGS_SIMILE_ONE_CLEARABLE_H
 
+#include "process/intrinsic/axiology/instructions/instruction.h"
 #include <cstdint>
 
 namespace ayurProjectRevealedClasses23 {
@@ -14,7 +15,7 @@ namespace ayurProjectRevealedClasses23 {
         void oneClear();
 
     private:
-        std::uint8_t privateIntellectualProperty;
+        std::uint8_t privateIntellectualProperty = ayurvedaAndProjectManagement::instruction::stop();
     };
 
 } // ayurvedaAndProjectManagementRevealedClasses23
