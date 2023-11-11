@@ -5,5 +5,5 @@
 
 #include <cstdint>
 
-namespace ayurProjectRevealedClasses23 {
+namespace ayurvedaAndProjectManagementRevealedClasses23 {
 } // ayurvedaAndProjectManagementRevealedClasses23

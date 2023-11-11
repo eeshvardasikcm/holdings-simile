@@ -14,7 +14,7 @@
 #include "html.h"
 #include <array>
 
-namespace ayurProjectRevealedClasses23 {
+namespace ayurvedaAndProjectManagementRevealedClasses23 {
 
     class holdingsSimile {
     public:
@@ -126,9 +126,9 @@ namespace ayurProjectRevealedClasses23 {
                  "the current qualities of a sadhaka."};
 
         const std::string bCorpGreenPaper =
-                ayurProjectRevealedClasses23::html::createNewMeta(
+                ayurvedaAndProjectManagementRevealedClasses23::html::createNewMeta(
                         "EeshvarDasIKCM AyurProject B Corp Green Paper") +
-                ayurProjectRevealedClasses23::html::createFirstHeaderWithBody(
+                ayurvedaAndProjectManagementRevealedClasses23::html::createFirstHeaderWithBody(
                         "I am more like a gen Y because, unlike most gen X and gen Y,"
                         "I favored spiritual advance at the sacrifice of financial advance, deep into my life."
                         "Complete Paperwork. "

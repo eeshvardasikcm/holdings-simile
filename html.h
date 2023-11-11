@@ -12,7 +12,7 @@
 #include <fstream>
 #include <array>
 
-namespace ayurProjectRevealedClasses23 {
+namespace ayurvedaAndProjectManagementRevealedClasses23 {
 
     class html {
     public:

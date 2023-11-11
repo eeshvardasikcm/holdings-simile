@@ -9,7 +9,7 @@
 #include "definition.h"
 #include <utility>
 
-namespace ayurProjectRevealedClasses23 {
+namespace ayurvedaAndProjectManagementRevealedClasses23 {
     static const std::string primaryRealObjectFocusSimilar =
             "my studies of C++ have not reached the point of multiplying realizations of C++ singleton."
             "For that reason, and because the clock ticks during beta phase, "
@@ -119,36 +119,36 @@ namespace ayurProjectRevealedClasses23 {
         this->oneDictionary.oneClear();
         this->oneBoard.oneClear();
         definition trianglePointSimile = definition::createBase();
-        const super holdingsSimileDefaultSuper = ayurProjectRevealedClasses23::definition::createSuper();
+        const super holdingsSimileDefaultSuper = ayurvedaAndProjectManagementRevealedClasses23::definition::createSuper();
         const super targetHoldingsSimileEnergyPointSimileType =
-                ayurProjectRevealedClasses23::definition::createSuper(holdingsSimileDefaultSuper);
+                ayurvedaAndProjectManagementRevealedClasses23::definition::createSuper(holdingsSimileDefaultSuper);
         const modifier holdingsSimileCreatorDefaultModifier =
-                ayurProjectRevealedClasses23::definition::createAxiologyModifier(
+                ayurvedaAndProjectManagementRevealedClasses23::definition::createAxiologyModifier(
                         holdingsSimileDefaultSuper,
                         targetHoldingsSimileEnergyPointSimileType
         );
         const pointSimile drinkHotWaterForGoodAgni =
-                ayurProjectRevealedClasses23::definition::createNewProductivityEnergyPointSimile(
+                ayurvedaAndProjectManagementRevealedClasses23::definition::createNewProductivityEnergyPointSimile(
                         holdingsSimileDefaultSuper,
                         holdingsSimileCreatorDefaultModifier
                 );
         const pointSimile drinkHotWaterUsingSankhyaYoga =
-                ayurProjectRevealedClasses23::definition::createNewAyurvedaEnergyPointSimile(
+                ayurvedaAndProjectManagementRevealedClasses23::definition::createNewAyurvedaEnergyPointSimile(
                         holdingsSimileDefaultSuper,
                         holdingsSimileCreatorDefaultModifier
                 );
-        const pointSimile sarvaGoal = ayurProjectRevealedClasses23::definition::createNewArthaEnergyPointSimile(
+        const pointSimile sarvaGoal = ayurvedaAndProjectManagementRevealedClasses23::definition::createNewArthaEnergyPointSimile(
                 holdingsSimileDefaultSuper,
                 targetHoldingsSimileEnergyPointSimileType,
                 holdingsSimileCreatorDefaultModifier
         );
-        const pointSimile arthaGoal = ayurProjectRevealedClasses23::definition::createNewArthaEnergyPointSimile(
+        const pointSimile arthaGoal = ayurvedaAndProjectManagementRevealedClasses23::definition::createNewArthaEnergyPointSimile(
                 holdingsSimileDefaultSuper,
                 targetHoldingsSimileEnergyPointSimileType,
                 holdingsSimileCreatorDefaultModifier
         );
         const pointSimile ayurvedaAyurProjectGCGoal =
-                ayurProjectRevealedClasses23::definition::createNewMokshaEnergyPointSimile(
+                ayurvedaAndProjectManagementRevealedClasses23::definition::createNewMokshaEnergyPointSimile(
                         targetHoldingsSimileEnergyPointSimileType,
                         holdingsSimileCreatorDefaultModifier
         );

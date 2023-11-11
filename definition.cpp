@@ -5,7 +5,7 @@
 
 #include "definition.h"
 
-namespace ayurProjectRevealedClasses23 {
+namespace ayurvedaAndProjectManagementRevealedClasses23 {
     definition::definition(std::uint8_t uint8) {
     }
     definition definition::createDefinitionEntry() {

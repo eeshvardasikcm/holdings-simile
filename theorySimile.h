@@ -9,7 +9,7 @@
 #include <cstdint>
 #include "board.h"
 
-namespace ayurProjectRevealedClasses23 {
+namespace ayurvedaAndProjectManagementRevealedClasses23 {
 
     class theorySimile {
     private:

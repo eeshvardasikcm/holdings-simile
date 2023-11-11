@@ -14,12 +14,12 @@
 #include "modifier.h"
 #include "board.h"
 
-namespace ayurProjectRevealedClasses23 {
+namespace ayurvedaAndProjectManagementRevealedClasses23 {
 
     class definition {
     public:
         explicit definition(uint8_t uint8);
-        static ayurProjectRevealedClasses23::definition createDefinitionEntry();
+        static ayurvedaAndProjectManagementRevealedClasses23::definition createDefinitionEntry();
         static auto createBase() -> definition;
         static auto createSuper() -> super;
         static auto createSuper(super CongruencySimileWith) -> super;

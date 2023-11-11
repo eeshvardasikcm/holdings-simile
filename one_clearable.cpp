@@ -4,7 +4,7 @@
 
 #include "one_clearable.h"
 
-namespace ayurProjectRevealedClasses23 {
+namespace ayurvedaAndProjectManagementRevealedClasses23 {
     void oneClearable::oneClear() {
         privateIntellectualProperty = ayurvedaAndProjectManagement::instruction::stop();
     }

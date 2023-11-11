@@ -8,7 +8,7 @@
 
 #include <cstdint>
 
-namespace ayurProjectRevealedClasses23 {
+namespace ayurvedaAndProjectManagementRevealedClasses23 {
 
     class triangleSimile {
         std::uint8_t privateIntellectualProperty;

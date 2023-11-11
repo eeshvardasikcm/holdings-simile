@@ -7,7 +7,7 @@
 #include <array>
 #include <cstring>
 
-namespace ayurProjectRevealedClasses23 {
+namespace ayurvedaAndProjectManagementRevealedClasses23 {
     std::string html::createNewMeta(const char *string) {
         return "<p>" + std::string(string) + "</p>";
     }

@@ -8,7 +8,7 @@
 #include "process/intrinsic/axiology/instructions/instruction.h"
 #include <cstdint>
 
-namespace ayurProjectRevealedClasses23 {
+namespace ayurvedaAndProjectManagementRevealedClasses23 {
 
     class oneClearable {
     public:
