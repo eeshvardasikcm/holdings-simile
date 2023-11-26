@@ -7,7 +7,7 @@
 #define HOLDINGS_SIMILE_THEORY_SIMILE_H
 
 #include <cstdint>
-#include "board.h"
+#include "article/board.h"
 
 namespace ayurvedaAndProjectManagementRevealedClasses23 {
 
@@ -16,6 +16,6 @@ namespace ayurvedaAndProjectManagementRevealedClasses23 {
         std::uint8_t privateIntellectualProperty;
     };
 
-} // ayurvedaAndProjectManagementPrivate
+} // ayurvedaAndProjectManagementRevealedClasses23Private
 
 #endif //HOLDINGS_SIMILE_THEORY_SIMILE_H

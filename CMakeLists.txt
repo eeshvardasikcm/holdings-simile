@@ -19,16 +19,24 @@ add_executable(holdings_simile main.cpp
         definition.h
         dictionary.cpp
         dictionary.h
-        board.cpp
-        board.h
+        article/board.cpp
+        article/board.h
         super.cpp
         super.h
         modifier.cpp
         modifier.h
-        html.cpp
-        html.h
+        article/html.cpp
+        article/html.h
         triangle_simile.cpp
         triangle_simile.h
         one_clearable.cpp
         one_clearable.h
+        article/sentence.cpp
+        article/sentence.h
+        article/head.cpp
+        article/head.h
+        article/body.cpp
+        article/body.h
+        article/footer.cpp
+        article/footer.h
 )

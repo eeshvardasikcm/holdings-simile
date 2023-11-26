@@ -7,12 +7,12 @@
 
 #include "../board/board.h"
 
-namespace ayurvedaAndProjectManagement {
+namespace ayurvedaAndProjectManagementRevealedClasses23 {
 
     class theory {
 
     };
 
-} // ayurvedaAndProjectManagement
+} // ayurvedaAndProjectManagementRevealedClasses23
 
 #endif //AYURVEDA_AND_PROJECT_MANAGEMENT_THEORY_H

@@ -25,7 +25,7 @@ namespace ayurvedaAndProjectManagementRevealedClasses23 {
     }
 
     std::string html::fetchFooter() {
-        return "<p>©2023 EeshvarDasIKCM (Erik Douglas Ward, EeshvarDas) AyurProject Bootstrap 0.1.0 (beta)</p>";
+        return "<p>©2023 EeshvarDasIKCM (Erik Douglas Ward, EeshvarDas) ayurvedaAndProjectManagement Bootstrap 0.1.0 (beta)</p>";
     }
 
     void html::printToHtmlFile(

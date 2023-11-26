@@ -15,7 +15,7 @@ namespace ayurvedaAndProjectManagementRevealedClasses23 {
         void oneClear();
 
     private:
-        std::uint8_t privateIntellectualProperty = ayurvedaAndProjectManagement::instruction::stop();
+        std::uint8_t privateIntellectualProperty = ayurvedaAndProjectManagementRevealedClasses23::instruction::stop();
     };
 
 } // ayurvedaAndProjectManagementRevealedClasses23

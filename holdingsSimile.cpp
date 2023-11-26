@@ -5,7 +5,7 @@
 
 #include "holdingsSimile.h"
 #include "modifier.h"
-#include "html.h"
+#include "article/html.h"
 #include "definition.h"
 #include <utility>
 
@@ -29,7 +29,7 @@ namespace ayurvedaAndProjectManagementRevealedClasses23 {
             "convert the eSports by EeshvarDasIKCM racing sports team"
             " managers, EeshvarDasIKCM is the manager, "
             "findings into newAyurvedaAndProjectManagementBranding 'real object processing':"
-            "5 races (races becomes 5 times through AyurProject 'process' (short or long), or _______)"
+            "5 races (races becomes 5 times through ayurvedaAndProjectManagement 'process' (short or long), or _______)"
             "amount of dollars"
             "amount of staff (staff becomes 'resources', 'energy' or _______)"
             "best or equal (cars 'becomesSimilar' to 'users' 'body', 'capabilities', 'performance', 'power',"
@@ -147,7 +147,7 @@ namespace ayurvedaAndProjectManagementRevealedClasses23 {
                 targetHoldingsSimileEnergyPointSimileType,
                 holdingsSimileCreatorDefaultModifier
         );
-        const pointSimile ayurvedaAyurProjectGCGoal =
+        const pointSimile ayurvedaayurvedaAndProjectManagementGCGoal =
                 ayurvedaAndProjectManagementRevealedClasses23::definition::createNewMokshaEnergyPointSimile(
                         targetHoldingsSimileEnergyPointSimileType,
                         holdingsSimileCreatorDefaultModifier

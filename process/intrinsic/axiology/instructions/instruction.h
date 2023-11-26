@@ -5,13 +5,13 @@
 #ifndef AYURVEDA_AND_PROJECT_MANAGEMENT_INSTRUCTION_H
 #define AYURVEDA_AND_PROJECT_MANAGEMENT_INSTRUCTION_H
 
-namespace ayurvedaAndProjectManagement {
+namespace ayurvedaAndProjectManagementRevealedClasses23 {
 
     class instruction {
     public:
         static unsigned char stop();
     };
 
-} // ayurvedaAndProjectManagement
+} // ayurvedaAndProjectManagementRevealedClasses23
 
 #endif //AYURVEDA_AND_PROJECT_MANAGEMENT_INSTRUCTION_H

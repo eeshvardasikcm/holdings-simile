@@ -12,7 +12,7 @@
 #include "triangle_simile.h"
 #include "point_simile.h"
 #include "modifier.h"
-#include "board.h"
+#include "article/board.h"
 
 namespace ayurvedaAndProjectManagementRevealedClasses23 {
 

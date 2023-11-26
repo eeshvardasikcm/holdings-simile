@@ -7,7 +7,7 @@
 
 #include "axiology/instructions/instruction.h"
 
-namespace ayurvedaAndProjectManagement {
+namespace ayurvedaAndProjectManagementRevealedClasses23 {
 
     class cleanliness {
     private:
@@ -16,6 +16,6 @@ namespace ayurvedaAndProjectManagement {
         static bool isCleanRightNow(instruction color);
     };
 
-} // ayurvedaAndProjectManagement
+} // ayurvedaAndProjectManagementRevealedClasses23
 
 #endif //AYURVEDA_AND_PROJECT_MANAGEMENT_CLEANLINESS_H

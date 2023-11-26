@@ -6,6 +6,6 @@
 #include <iostream>
 
 int main() {
-    std::cout << "EeshvarDasIKCM's AyurProject Language C++ partial reveal 0.Summer.2023 (beta)" << std::endl;
+    std::cout << "EeshvarDasIKCM's ayurvedaAndProjectManagement Language C++ partial reveal 0.Summer.2023 (beta)" << std::endl;
     return 0;
 }

@@ -7,7 +7,7 @@
 #define HOLDINGS_SIMILE_HTML_H
 
 #include "board.h"
-#include "dictionary.h"
+#include "../dictionary.h"
 #include <cstdio>
 #include <fstream>
 #include <array>
