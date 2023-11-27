@@ -5,7 +5,7 @@
 #ifndef AYURVEDA_AND_PROJECT_MANAGEMENT_THEORY_H
 #define AYURVEDA_AND_PROJECT_MANAGEMENT_THEORY_H
 
-#include "../board/board.h"
+#include "article/board.h"
 
 namespace ayurvedaAndProjectManagementRevealedClasses23 {
 

@@ -105,83 +105,30 @@ namespace ayurvedaAndProjectManagementRevealedClasses23 {
         dictionary oneDictionary{};
         board oneBoard{};
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        const ayurvedaAndProjectManagementRevealedClasses23::sentence diversificationSimilarTitle = sentence(
-                "diversificationSimilar");
         const ayurvedaAndProjectManagementRevealedClasses23::head
-                diversificationSimilarHead = head(holdingsSimile::diversificationSimilarTitle);
-
-        const ayurvedaAndProjectManagementRevealedClasses23::sentence
-                diversificationSimilarFirstHeader = sentence(
-                "diversificationSimilar");
-        const ayurvedaAndProjectManagementRevealedClasses23::sentence
-                diversificationSimilarFirstHeaderFirstSentence = sentence(
-                "'diversificationSimilarFirstHeaderFirstSentence' was created "
-                "because of how sattva, rajas, and tamas tend to be "
-                "constantly fluctuating in the sadhaka. ");
-        const ayurvedaAndProjectManagementRevealedClasses23::sentence
-                diversificationSimilarFirstHeaderSecondSentence = sentence(
-                "By acknowledging ones own capability to have more control "
-                "over the gunas, one may see how the term diversification may apply to the three gunas.");
-        const ayurvedaAndProjectManagementRevealedClasses23::sentence
-                diversificationSimilarFirstHeaderThirdSentence = sentence(
-                "'diversificationSimilarFirstHeaderFirstSentence' "
-                "can apply to developing the ayurvedaAndProjectManagementRevealedClasses23 understanding of "
-                "the ayurvedaAndProjectManagement Language theory of 'primaryRealObjectFocusSimilar'.");
-        const ayurvedaAndProjectManagementRevealedClasses23::sentence
-                diversificationSimilarSecondHeader = sentence(
-        "");
-        const ayurvedaAndProjectManagementRevealedClasses23::sentence
-                diversificationSimilarSecondHeaderFirstSentence = sentence(
-                "We understand that there are many qualities of a pure Vaishnava. It may "
-                "be easy to accept that as we develop our devotional service, we may have some qualities of a"
-                "Vaishnava, but not all qualities of a Vaishnava in full. ");
-        const ayurvedaAndProjectManagementRevealedClasses23::sentence
-                diversificationSimilarSecondHeaderSecondSentence = sentence(
-        "");
-        const ayurvedaAndProjectManagementRevealedClasses23::sentence
-                diversificationSimilarSecondHeaderThirdSentence = sentence(
-        "");
-        const ayurvedaAndProjectManagementRevealedClasses23::sentence
-                diversificationSimilarThirdHeader = sentence(
-        "");
-        const ayurvedaAndProjectManagementRevealedClasses23::sentence
-                diversificationSimilarThirdHeaderFirstSentence = sentence(
-                "'diversificationSimilar' "
-                "can likely be construed to apply to any holdingsSimile.");
-        const ayurvedaAndProjectManagementRevealedClasses23::sentence
-                diversificationSimilarThirdHeaderSecondSentence = sentence(
-                "'diversificationSimilarFirstHeaderFirstSentence' can also apply to "
-                "the current qualities of a sadhaka.");
-        const ayurvedaAndProjectManagementRevealedClasses23::sentence
-                diversificationSimilarThirdHeaderThirdSentence = sentence(
-                "");
+                diversificationSimilarHead = head(sentence("diversificationSimilar"));
         const ayurvedaAndProjectManagementRevealedClasses23::body diversificationSimilarBody = body(
-                holdingsSimile::diversificationSimilarFirstHeader,
-                holdingsSimile::diversificationSimilarFirstHeaderFirstSentence,
-                holdingsSimile::diversificationSimilarFirstHeaderSecondSentence,
-                holdingsSimile::diversificationSimilarFirstHeaderThirdSentence,
-                holdingsSimile::diversificationSimilarSecondHeader,
-                holdingsSimile::diversificationSimilarSecondHeaderFirstSentence,
-                holdingsSimile::diversificationSimilarSecondHeaderSecondSentence,
-                holdingsSimile::diversificationSimilarSecondHeaderThirdSentence,
-                holdingsSimile::diversificationSimilarThirdHeader,
-                holdingsSimile::diversificationSimilarThirdHeaderFirstSentence,
-                holdingsSimile::diversificationSimilarThirdHeaderSecondSentence,
-                holdingsSimile::diversificationSimilarThirdHeaderThirdSentence
+                sentence("diversificationSimilar"),
+                sentence("'diversificationSimilarFirstHeaderFirstSentence' was created "
+                "because of how sattva, rajas, and tamas tend to be "
+                "constantly fluctuating in the sadhaka. "),
+                sentence("By acknowledging ones own capability to have more control "
+                "over the gunas, one may see how the term diversification may apply to the three gunas."),
+                sentence("'diversificationSimilarFirstHeaderFirstSentence' "
+                "can apply to developing the ayurvedaAndProjectManagementRevealedClasses23 understanding of "
+                "the ayurvedaAndProjectManagement Language theory of 'primaryRealObjectFocusSimilar'."),
+                sentence(""),
+                sentence("We understand that there are many qualities of a pure Vaishnava. It may "
+                "be easy to accept that as we develop our devotional service, we may have some qualities of a"
+                "Vaishnava, but not all qualities of a Vaishnava in full. "),
+                sentence(""),
+                sentence(""),
+                sentence(""),
+                sentence("'diversificationSimilar' "
+                "can likely be construed to apply to any holdingsSimile."),
+                sentence("'diversificationSimilarFirstHeaderFirstSentence' can also apply to "
+                "the current qualities of a sadhaka."),
+                sentence("")
         );
         const article diversificationSimilarGreenPaper =
                 ayurvedaAndProjectManagementRevealedClasses23::article(
@@ -189,41 +136,16 @@ namespace ayurvedaAndProjectManagementRevealedClasses23 {
                         holdingsSimile::diversificationSimilarBody,
                         footer());
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        const ayurvedaAndProjectManagementRevealedClasses23::sentence bCorpTitle = sentence(
-                "EeshvarDasIKCM ayurvedaAndProjectManagement B Corp Green Paper");
-        const ayurvedaAndProjectManagementRevealedClasses23::head bCorpHead = head(holdingsSimile::bCorpTitle);
-        const ayurvedaAndProjectManagementRevealedClasses23::sentence bCorpFirstHeader = sentence(
-                "I am more like a gen Y because, unlike most gen X and gen Y");
-        const ayurvedaAndProjectManagementRevealedClasses23::sentence bCorpFirstHeaderFirstSentence = sentence(
-                "I favored spiritual advance at the sacrifice of financial advance, deep into my life.");
-        const ayurvedaAndProjectManagementRevealedClasses23::sentence bCorpFirstHeaderSecondSentence = sentence(
-                "Complete Paperwork.");
-        const ayurvedaAndProjectManagementRevealedClasses23::sentence bCorpFirstHeaderThirdSentence = sentence(
-                "Start with EeshvarDasIKCM LLC and "
+        const ayurvedaAndProjectManagementRevealedClasses23::head bCorpHead =
+                head(sentence("EeshvarDasIKCM ayurvedaAndProjectManagement B Corp Green Paper"));
+        const ayurvedaAndProjectManagementRevealedClasses23::body bCorpBody = body(
+                sentence("I am more like a gen Y because, unlike most gen X and gen Y"),
+                sentence("I favored spiritual advance at the sacrifice of financial advance, deep into my life."),
+                sentence("Complete Paperwork."),
+                sentence("Start with EeshvarDasIKCM LLC and "
                 "file business paperwork one at a time"
                 "until able to create a new "
-                "ayurvedaAndProjectManagement B Corp.");
-        const ayurvedaAndProjectManagementRevealedClasses23::body bCorpBody = body(
-                holdingsSimile::bCorpFirstHeader,
-                holdingsSimile::bCorpFirstHeaderFirstSentence,
-                holdingsSimile::bCorpFirstHeaderSecondSentence,
-                holdingsSimile::bCorpFirstHeaderThirdSentence,
+                "ayurvedaAndProjectManagement B Corp."),
                 sentence(""),
                 sentence(""),
                 sentence(""),
@@ -238,58 +160,27 @@ namespace ayurvedaAndProjectManagementRevealedClasses23 {
                 holdingsSimile::bCorpBody,
                 footer());
 
-
-
-
-
-
-
-
-
-
-
-
-
-        const ayurvedaAndProjectManagementRevealedClasses23::sentence ayurvedaAndProjectManagementBCorpTitle = sentence(
-                "ayurvedaAndProjectManagement BCorp Green Paper");
         const ayurvedaAndProjectManagementRevealedClasses23::head
-        ayurvedaAndProjectManagementBCorpHead = head(holdingsSimile::ayurvedaAndProjectManagementBCorpTitle);
-
-        const ayurvedaAndProjectManagementRevealedClasses23::sentence
-        ayurvedaAndProjectManagementBCorpFirstHeader = sentence(
-                "EeshvarDasIKCM Initial Use");
-        const ayurvedaAndProjectManagementRevealedClasses23::sentence
-        ayurvedaAndProjectManagementBCorpFirstHeaderFirstSentence = sentence(
-                "Used initially as founding business documentation for"
+        ayurvedaAndProjectManagementBCorpHead =
+                head(sentence("ayurvedaAndProjectManagement BCorp Green Paper"));
+        const ayurvedaAndProjectManagementRevealedClasses23::body ayurvedaAndProjectManagementBCorpBody = body(
+                sentence("EeshvarDasIKCM Initial Use"),
+                sentence("Used initially as founding business documentation for"
                 "EeshvarDasIKCM LLC. except with "
-                "the term ayurvedaAndProjectManagement not yet used.");
-        const ayurvedaAndProjectManagementRevealedClasses23::sentence
-        ayurvedaAndProjectManagementBCorpFirstHeaderSecondSentence = sentence(
-        "");
-        const ayurvedaAndProjectManagementRevealedClasses23::sentence
-                ayurvedaAndProjectManagementBCorpFirstHeaderThirdSentence = sentence(
-        "");
-        const ayurvedaAndProjectManagementRevealedClasses23::sentence
-                ayurvedaAndProjectManagementBCorpSecondHeader = sentence(
-        "ayurvedaAndProjectManagement Constitution");
-        const ayurvedaAndProjectManagementRevealedClasses23::sentence
-                ayurvedaAndProjectManagementBCorpSecondHeaderFirstSentence = sentence(
-                "Define ayurvedaAndProjectManagement Constitution created with "
+                "the term ayurvedaAndProjectManagement not yet used."),
+                sentence(""),
+                sentence(""),
+                sentence("ayurvedaAndProjectManagement Constitution"),
+                sentence("Define ayurvedaAndProjectManagement Constitution created with "
                 "branches that "
-                "simulate government process."
-                );
-        const ayurvedaAndProjectManagementRevealedClasses23::sentence
-                ayurvedaAndProjectManagementBCorpSecondHeaderSecondSentence = sentence(
-                "Erik Douglas Ward (EeshvarDasIKCM, EeshvarDasIKCM LLC, Eeshvar Das)"
+                "simulate government process."),
+                sentence("Erik Douglas Ward (EeshvarDasIKCM, EeshvarDasIKCM LLC, Eeshvar Das)"
                 "remains as CEO of ayurvedaAndProjectManagement B Corporation"
                 "even if an angel investor system or similar investor system"
                 "would normally allow an outside investor to take executive "
                 "control of ayurvedaAndProjectManagement B Corporation, because he is most qualified to see his own"
-                "creation through to its more advanced stages."
-                );
-        const ayurvedaAndProjectManagementRevealedClasses23::sentence
-                ayurvedaAndProjectManagementBCorpSecondHeaderThirdSentence = sentence(
-                "In efforts to maintain EeshvarDasIKCM as majority shareholder,"
+                "creation through to its more advanced stages."),
+                sentence("In efforts to maintain EeshvarDasIKCM as majority shareholder,"
                 "a business plan and business system is to be designed"
                 "step by step that "
                 "allows EeshvarDasIKCM to maintain that actual monetary"
@@ -307,33 +198,12 @@ namespace ayurvedaAndProjectManagementRevealedClasses23 {
                 "Ayurveda without modification and any high ranking representative of "
                 "ayurvedaAndProjectManagement B Corporation should be able to execute their position"
                 "in ayurvedaAndProjectManagement by consistently using such discretion for the "
-                "proper continuance of Ayurveda as it always has been.");
-        const ayurvedaAndProjectManagementRevealedClasses23::sentence
-                ayurvedaAndProjectManagementBCorpThirdHeader = sentence(
-        "Traditional Business Process");
-        const ayurvedaAndProjectManagementRevealedClasses23::sentence
-                ayurvedaAndProjectManagementBCorpThirdHeaderFirstSentence = sentence(
-                "Follow until "
-                "comparable business process is discovered and can replace.");
-        const ayurvedaAndProjectManagementRevealedClasses23::sentence
-                ayurvedaAndProjectManagementBCorpThirdHeaderSecondSentence = sentence(
-        "");
-        const ayurvedaAndProjectManagementRevealedClasses23::sentence
-                ayurvedaAndProjectManagementBCorpThirdHeaderThirdSentence = sentence(
-        "");
-        const ayurvedaAndProjectManagementRevealedClasses23::body ayurvedaAndProjectManagementBCorpBody = body(
-                holdingsSimile::ayurvedaAndProjectManagementBCorpFirstHeader,
-                holdingsSimile::ayurvedaAndProjectManagementBCorpFirstHeaderFirstSentence,
-                holdingsSimile::ayurvedaAndProjectManagementBCorpFirstHeaderSecondSentence,
-                holdingsSimile::ayurvedaAndProjectManagementBCorpFirstHeaderThirdSentence,
-                holdingsSimile::ayurvedaAndProjectManagementBCorpSecondHeader,
-                holdingsSimile::ayurvedaAndProjectManagementBCorpSecondHeaderFirstSentence,
-                holdingsSimile::ayurvedaAndProjectManagementBCorpSecondHeaderSecondSentence,
-                holdingsSimile::ayurvedaAndProjectManagementBCorpSecondHeaderThirdSentence,
-                holdingsSimile::ayurvedaAndProjectManagementBCorpThirdHeader,
-                holdingsSimile::ayurvedaAndProjectManagementBCorpThirdHeaderFirstSentence,
-                holdingsSimile::ayurvedaAndProjectManagementBCorpThirdHeaderSecondSentence,
-                holdingsSimile::ayurvedaAndProjectManagementBCorpThirdHeaderThirdSentence
+                "proper continuance of Ayurveda as it always has been."),
+                sentence("Traditional Business Process"),
+                sentence("Follow until "
+                "comparable business process is discovered and can replace."),
+                sentence(""),
+                sentence("")
         );
         const article ayurvedaAndProjectManagementBCorpGreenPaper =
                 ayurvedaAndProjectManagementRevealedClasses23::article(
