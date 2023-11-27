@@ -7,15 +7,15 @@
 #define HOLDINGS_SIMILE_THEORY_SIMILE_H
 
 #include <cstdint>
-#include "board.h"
+#include "article/board.h"
 
-namespace ayurProjectRevealedClasses23 {
+namespace ayurvedaAndProjectManagementRevealedClasses23 {
 
     class theorySimile {
     private:
         std::uint8_t privateIntellectualProperty;
     };
 
-} // ayurProjectPrivate
+} // ayurvedaAndProjectManagementRevealedClasses23Private
 
 #endif //HOLDINGS_SIMILE_THEORY_SIMILE_H

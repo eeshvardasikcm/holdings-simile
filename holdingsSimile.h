@@ -9,12 +9,13 @@
 #include "kshetra_simile.h"
 #include "point_simile.h"
 #include "dictionary.h"
-#include "board.h"
+#include "article/board.h"
 #include "dictionary.h"
-#include "html.h"
+#include "article/html.h"
+#include "article/article.h"
 #include <array>
 
-namespace ayurProjectRevealedClasses23 {
+namespace ayurvedaAndProjectManagementRevealedClasses23 {
 
     class holdingsSimile {
     public:
@@ -64,7 +65,7 @@ namespace ayurProjectRevealedClasses23 {
         static const std::uint8_t debtDebit5Plus_00001000_Q7_9_M9 = ONE_HUNDRED_AND_TWENTY_FIVE_DOLLARS;
         static const std::uint8_t emergencyPlus_00001000_PerMo = ONE_HUNDRED_AND_TWENTY_FIVE_DOLLARS;
         static const std::uint8_t emergency_00011000_PerYr = FIVE_HUNDRED_DOLLARS;
-        static const std::uint8_t GoogleFiAyurProject8000_SFY_6Mo = EIGHT_THOUSAND_DOLLARS;
+        static const std::uint8_t GoogleFiayurvedaAndProjectManagement8000_SFY_6Mo = EIGHT_THOUSAND_DOLLARS;
         static const std::uint8_t maintainCar_SFY_Plus5000PerYr = TWO_THOUSAND_DOLLARS_PER_YEAR;
         static const std::uint8_t civilRights_5000_PerYr = TWO_THOUSAND_DOLLARS_PER_YEAR;
 
@@ -96,91 +97,121 @@ namespace ayurProjectRevealedClasses23 {
         char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH>, html::BOOTSTRAP_DOCUMENT_TOTAL_PARTS_INCLUDING_META_ZERO>
                 bCorpGreenPaperFullDocument = {"", bCorpGreenPaperTitle};
         const std::array<char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH> ayurProjectCorpGreenPaperTitle
-                {"EeshvarDasIKCM AyurProject B Corp Green Paper (beta)"};
+                {"EeshvarDasIKCM ayurvedaAndProjectManagement B Corp Green Paper (beta)"};
         const
         std::array<std::array<
         char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH>, html::BOOTSTRAP_DOCUMENT_TOTAL_PARTS_INCLUDING_META_ZERO>
         ayurProjectCorpGreenPaperFullDocument = {"", ayurProjectCorpGreenPaperTitle};
         dictionary oneDictionary{};
         board oneBoard{};
-        const std::array<char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH> diversificationSimilarFirstHeaderFirstSentence =
-                {"'diversificationSimilarFirstHeaderFirstSentence' was created "
-                 "because of how sattva, rajas, and tamas tend to be "
-                "constantly fluctuating in the sadhaka. "};
-        const std::array<char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH> diversificationSimilarFirstHeaderSecondSentence =
-                {"By acknowledging ones own capability to have more control "
-                 "over the gunas, one may see how the term diversification may apply to the three gunas."};
-        const std::array<char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH> diversificationSimilarFirstHeaderThirdSentence =
-                {"'diversificationSimilarFirstHeaderFirstSentence' "
-                 "can apply to developing the ayurProject understanding of "
-                 "the AyurProject Language theory of 'primaryRealObjectFocusSimilar'."};
-        const std::array<char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH> diversificationSimilarSecondHeaderFirstSentence =
-                {"We understand that there are many qualities of a pure Vaishnava. It may "
+
+        const ayurvedaAndProjectManagementRevealedClasses23::head
+                diversificationSimilarHead = head(sentence("diversificationSimilar"));
+        const ayurvedaAndProjectManagementRevealedClasses23::body diversificationSimilarBody = body(
+                sentence("diversificationSimilar"),
+                sentence("'diversificationSimilarFirstHeaderFirstSentence' was created "
+                "because of how sattva, rajas, and tamas tend to be "
+                "constantly fluctuating in the sadhaka. "),
+                sentence("By acknowledging ones own capability to have more control "
+                "over the gunas, one may see how the term diversification may apply to the three gunas."),
+                sentence("'diversificationSimilarFirstHeaderFirstSentence' "
+                "can apply to developing the ayurvedaAndProjectManagementRevealedClasses23 understanding of "
+                "the ayurvedaAndProjectManagement Language theory of 'primaryRealObjectFocusSimilar'."),
+                sentence(""),
+                sentence("We understand that there are many qualities of a pure Vaishnava. It may "
                 "be easy to accept that as we develop our devotional service, we may have some qualities of a"
-                "Vaishnava, but not all qualities of a Vaishnava in full. "};
-        const std::array<char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH> diversificationSimilarThirdHeader =
-                {"'diversificationSimilarFirstHeaderFirstSentence' "
-                 "can likely be construed to apply to any holdingsSimile."};
-        const std::array<char, html::BOOTSTRAP_SENTENCE_MAX_LENGTH> diversificationSimilarThirdHeaderFirstSentence =
-                {"'diversificationSimilarFirstHeaderFirstSentence' can also apply to "
-                 "the current qualities of a sadhaka."};
+                "Vaishnava, but not all qualities of a Vaishnava in full. "),
+                sentence(""),
+                sentence(""),
+                sentence(""),
+                sentence("'diversificationSimilar' "
+                "can likely be construed to apply to any holdingsSimile."),
+                sentence("'diversificationSimilarFirstHeaderFirstSentence' can also apply to "
+                "the current qualities of a sadhaka."),
+                sentence("")
+        );
+        const article diversificationSimilarGreenPaper =
+                ayurvedaAndProjectManagementRevealedClasses23::article(
+                        holdingsSimile::diversificationSimilarHead,
+                        holdingsSimile::diversificationSimilarBody,
+                        footer());
 
-        const std::string bCorpGreenPaper =
-                ayurProjectRevealedClasses23::html::createNewMeta(
-                        "EeshvarDasIKCM AyurProject B Corp Green Paper") +
-                ayurProjectRevealedClasses23::html::createFirstHeaderWithBody(
-                        "I am more like a gen Y because, unlike most gen X and gen Y,"
-                        "I favored spiritual advance at the sacrifice of financial advance, deep into my life."
-                        "Complete Paperwork. "
-                        "Start with EeshvarDasIKCM LLC and "
-                        "file business paperwork one at a time"
-                        "until able to create a new "
-                        "AyurProject B Corp.") +
-                html::createSecondHeaderWithBody("") +
-                html::createThirdHeaderWithBody("") +
-                html::fetchFooter();
+        const ayurvedaAndProjectManagementRevealedClasses23::head bCorpHead =
+                head(sentence("EeshvarDasIKCM ayurvedaAndProjectManagement B Corp Green Paper"));
+        const ayurvedaAndProjectManagementRevealedClasses23::body bCorpBody = body(
+                sentence("I am more like a gen Y because, unlike most gen X and gen Y"),
+                sentence("I favored spiritual advance at the sacrifice of financial advance, deep into my life."),
+                sentence("Complete Paperwork."),
+                sentence("Start with EeshvarDasIKCM LLC and "
+                "file business paperwork one at a time"
+                "until able to create a new "
+                "ayurvedaAndProjectManagement B Corp."),
+                sentence(""),
+                sentence(""),
+                sentence(""),
+                sentence(""),
+                sentence(""),
+                sentence(""),
+                sentence(""),
+                sentence("")
+                );
+        const article bCorpGreenPaper = ayurvedaAndProjectManagementRevealedClasses23::article(
+                holdingsSimile::bCorpHead,
+                holdingsSimile::bCorpBody,
+                footer());
 
-        const std::string ayurProjectCorpGreenPaper =
-                html::createNewMeta("AyurProject AyurCorp Green Paper") +
-                html::createFirstHeaderWithBody("Used initially as founding business documentation for"
-                                                "EeshvarDasIKCM LLC. except with "
-                                                "the term AyurProject not yet used."
-                ) +
-                html::createSecondHeaderWithBody("Define AyurProject Constitution created with "
-                                                 "branches that "
-                                                 "simulate government process."
-                                                 "Erik Douglas Ward (EeshvarDasIKCM, EeshvarDasIKCM LLC, Eeshvar Das)"
-                                                 "remains as CEO of AyurProject B Corporation"
-                                                 "even if an angel investor system or similar investor system"
-                                                 "would normally allow an outside investor to take executive "
-                                                 "control of AyurProject B Corporation."
-                                                 "In efforts to maintain EeshvarDasIKCM as majority shareholder,"
-                                                 "a business plan and business system is to be designed"
-                                                 "step by step that "
-                                                 "allows EeshvarDasIKCM to maintain that actual monetary"
-                                                 "majority ownership of AyurProject B Corporation."
-                                                 "A proper simulated judicial and simulated government federal process"
-                                                 "needs to be created to allow some other person or group of other"
-                                                 "people to earn the right to become majority share holder."
-                                                 "Intergalactic multiple centuries future projections as seen by "
-                                                 "current and SciFi and stagnating regulatory effect inevitable upon"
-                                                 "AI into new ground within the scope of the next decades; to be used"
-                                                 "as stabilizing governance factor where business has yet to achieve"
-                                                 "such well needed self regulation."
-                                                 "The future of Ayurveda in the United States and in the world"
-                                                 "Should continue to follow the true principles and teaching of "
-                                                 "Ayurveda without modification and any high ranking representative of "
-                                                 "AyurProject B Corporation should be able to execute their position"
-                                                 "in AyurProject by consistently using such discretion for the "
-                                                 "proper continuance of Ayurveda as it always has been."
-                ) +
-                html::createThirdHeaderWithBody("Follow until "
-                                                "comparable business process is discovered and can replace."
-                ) +
-                html::fetchFooter();
-
+        const ayurvedaAndProjectManagementRevealedClasses23::head
+        ayurvedaAndProjectManagementBCorpHead =
+                head(sentence("ayurvedaAndProjectManagement BCorp Green Paper"));
+        const ayurvedaAndProjectManagementRevealedClasses23::body ayurvedaAndProjectManagementBCorpBody = body(
+                sentence("EeshvarDasIKCM Initial Use"),
+                sentence("Used initially as founding business documentation for"
+                "EeshvarDasIKCM LLC. except with "
+                "the term ayurvedaAndProjectManagement not yet used."),
+                sentence(""),
+                sentence(""),
+                sentence("ayurvedaAndProjectManagement Constitution"),
+                sentence("Define ayurvedaAndProjectManagement Constitution created with "
+                "branches that "
+                "simulate government process."),
+                sentence("Erik Douglas Ward (EeshvarDasIKCM, EeshvarDasIKCM LLC, Eeshvar Das)"
+                "remains as CEO of ayurvedaAndProjectManagement B Corporation"
+                "even if an angel investor system or similar investor system"
+                "would normally allow an outside investor to take executive "
+                "control of ayurvedaAndProjectManagement B Corporation, because he is most qualified to see his own"
+                "creation through to its more advanced stages."),
+                sentence("In efforts to maintain EeshvarDasIKCM as majority shareholder,"
+                "a business plan and business system is to be designed"
+                "step by step that "
+                "allows EeshvarDasIKCM to maintain that actual monetary"
+                "majority ownership of ayurvedaAndProjectManagement B Corporation."
+                "A proper simulated judicial and simulated government federal process"
+                "needs to be created to allow some other person or group of other"
+                "people to earn the right to become majority share holder."
+                "Intergalactic multiple centuries future projections as seen by "
+                "current and SciFi and stagnating regulatory effect inevitable upon"
+                "AI into new ground within the scope of the next decades; to be used"
+                "as stabilizing governance factor where business has yet to achieve"
+                "such well needed self regulation."
+                "The future of Ayurveda in the United States and in the world"
+                "Should continue to follow the true principles and teaching of "
+                "Ayurveda without modification and any high ranking representative of "
+                "ayurvedaAndProjectManagement B Corporation should be able to execute their position"
+                "in ayurvedaAndProjectManagement by consistently using such discretion for the "
+                "proper continuance of Ayurveda as it always has been."),
+                sentence("Traditional Business Process"),
+                sentence("Follow until "
+                "comparable business process is discovered and can replace."),
+                sentence(""),
+                sentence("")
+        );
+        const article ayurvedaAndProjectManagementBCorpGreenPaper =
+                ayurvedaAndProjectManagementRevealedClasses23::article(
+                holdingsSimile::ayurvedaAndProjectManagementBCorpHead,
+                holdingsSimile::ayurvedaAndProjectManagementBCorpBody,
+                footer());
     };
 
-} // ayurProjectRevealedClasses23
+} // ayurvedaAndProjectManagementRevealedClasses23
 
 #endif //HOLDINGS_SIMILE_THEORY_SIMILE_H

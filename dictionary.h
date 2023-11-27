@@ -9,11 +9,11 @@
 #include "one_clearable.h"
 #include <cstdint>
 
-namespace ayurProjectRevealedClasses23 {
+namespace ayurvedaAndProjectManagementRevealedClasses23 {
 
     class dictionary : public oneClearable {
     };
 
-} // ayurProjectRevealedClasses23
+} // ayurvedaAndProjectManagementRevealedClasses23
 
 #endif //HOLDINGS_SIMILE_DICTIONARY_H

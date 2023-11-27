@@ -7,12 +7,12 @@
 #define HOLDINGS_SIMILE_HTML_H
 
 #include "board.h"
-#include "dictionary.h"
+#include "../dictionary.h"
 #include <cstdio>
 #include <fstream>
 #include <array>
 
-namespace ayurProjectRevealedClasses23 {
+namespace ayurvedaAndProjectManagementRevealedClasses23 {
 
     class html {
     public:
@@ -101,7 +101,7 @@ namespace ayurProjectRevealedClasses23 {
     private:
         static const std::uint8_t BOOTSTRAP_FILE_NAME_PART = 1U;
         static const std::uint8_t BOOTSTRAP_FILE_EXTENSION_PART = 2U;
-        std::string AYURPROJECT_SYNC_SPECIFICATION_PUBLISHING_BETA =
+        std::string AYURVEDA_AND_PROJECT_MANAGEMENT_SYNC_SPECIFICATION_PUBLISHING_BETA =
                 "ayurproject_sync_specification_publishing_beta";
         static const std::uint8_t BOOTSTRAP_DOCUMENT_TITLE_PART = 1U;
         static const std::uint8_t BOOTSTRAP_DOCUMENT_SUB_TITLE_PART = 2U;
@@ -132,6 +132,6 @@ namespace ayurProjectRevealedClasses23 {
                 html::BOOTSTRAP_DOCUMENT_TOTAL_PARTS_INCLUDING_META_ZERO> fullFileContentsAsArray);
     };
 
-} // ayurProjectRevealedClasses23
+} // ayurvedaAndProjectManagementRevealedClasses23
 
 #endif //HOLDINGS_SIMILE_HTML_H

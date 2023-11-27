@@ -8,7 +8,7 @@
 
 #include <cstdint>
 
-namespace ayurProjectRevealedClasses23 {
+namespace ayurvedaAndProjectManagementRevealedClasses23 {
 
     class kshetraSimile {
         private:
@@ -16,6 +16,6 @@ namespace ayurProjectRevealedClasses23 {
 
     };
 
-} // ayurProjectRevealedClasses23
+} // ayurvedaAndProjectManagementRevealedClasses23
 
 #endif //HOLDINGS_SIMILE_KSHETRA_SIMILE_H

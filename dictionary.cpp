@@ -5,5 +5,5 @@
 
 #include "dictionary.h"
 
-namespace ayurProjectRevealedClasses23 {
-} // ayurProjectRevealedClasses23
+namespace ayurvedaAndProjectManagementRevealedClasses23 {
+} // ayurvedaAndProjectManagementRevealedClasses23

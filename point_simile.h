@@ -8,13 +8,13 @@
 
 #include <cstdint>
 
-namespace ayurProjectRevealedClasses23 {
+namespace ayurvedaAndProjectManagementRevealedClasses23 {
 
     class pointSimile {
         private:
             std::uint8_t privateIntellectualProperty;
     };
 
-} // ayurProjectRevealedClasses23
+} // ayurvedaAndProjectManagementRevealedClasses23
 
 #endif //HOLDINGS_SIMILE_POINT_SIMILE_H

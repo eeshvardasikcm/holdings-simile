@@ -10,25 +10,4 @@ set(CMAKE_CXX_STANDARD 23)
 add_executable(holdings_simile main.cpp
         holdingsSimile.cpp
         holdingsSimile.h
-        theorySimile.cpp
-        theorySimile.h
-        kshetra_simile.h
-        point_simile.cpp
-        point_simile.h
-        definition.cpp
-        definition.h
-        dictionary.cpp
-        dictionary.h
-        board.cpp
-        board.h
-        super.cpp
-        super.h
-        modifier.cpp
-        modifier.h
-        html.cpp
-        html.h
-        triangle_simile.cpp
-        triangle_simile.h
-        one_clearable.cpp
-        one_clearable.h
 )

@@ -5,7 +5,7 @@
 
 #include "definition.h"
 
-namespace ayurProjectRevealedClasses23 {
+namespace ayurvedaAndProjectManagementRevealedClasses23 {
     definition::definition(std::uint8_t uint8) {
     }
     definition definition::createDefinitionEntry() {
@@ -56,4 +56,4 @@ namespace ayurProjectRevealedClasses23 {
     definition::createNewMokshaEnergyPointSimile(const super super1, const modifier modifier1) -> pointSimile {
         return {};
     }
-} // ayurProjectRevealedClasses23
+} // ayurvedaAndProjectManagementRevealedClasses23

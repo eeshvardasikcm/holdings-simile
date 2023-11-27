@@ -1,18 +1,18 @@
 //
-// Created by User on 5/26/2023.
+// Created by Erik Douglas Ward (EeshvarDasIKCM) on 5/26/2023.
 //
 
-#ifndef AYURPROJECT_CPP_THEORY_H
-#define AYURPROJECT_CPP_THEORY_H
+#ifndef AYURVEDA_AND_PROJECT_MANAGEMENT_THEORY_H
+#define AYURVEDA_AND_PROJECT_MANAGEMENT_THEORY_H
 
-#include "../board/board.h"
+#include "article/board.h"
 
-namespace ayurProject {
+namespace ayurvedaAndProjectManagementRevealedClasses23 {
 
     class theory {
 
     };
 
-} // ayurProject
+} // ayurvedaAndProjectManagementRevealedClasses23
 
-#endif //AYURPROJECT_CPP_THEORY_H
+#endif //AYURVEDA_AND_PROJECT_MANAGEMENT_THEORY_H

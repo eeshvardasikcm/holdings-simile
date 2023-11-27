@@ -7,7 +7,7 @@
 #include <array>
 #include <cstring>
 
-namespace ayurProjectRevealedClasses23 {
+namespace ayurvedaAndProjectManagementRevealedClasses23 {
     std::string html::createNewMeta(const char *string) {
         return "<p>" + std::string(string) + "</p>";
     }
@@ -25,7 +25,7 @@ namespace ayurProjectRevealedClasses23 {
     }
 
     std::string html::fetchFooter() {
-        return "<p>©2023 EeshvarDasIKCM (Erik Douglas Ward, EeshvarDas) AyurProject Bootstrap 0.1.0 (beta)</p>";
+        return "<p>©2023 EeshvarDasIKCM (Erik Douglas Ward, EeshvarDas) ayurvedaAndProjectManagement Bootstrap 0.1.0 (beta)</p>";
     }
 
     void html::printToHtmlFile(
@@ -129,4 +129,4 @@ namespace ayurProjectRevealedClasses23 {
         return fullFileContentsAsArray;
     }
 
-} // ayurProjectRevealedClasses23
+} // ayurvedaAndProjectManagementRevealedClasses23
