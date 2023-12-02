@@ -6,7 +6,7 @@ Build Errors are present as warning in commit comments. This software is not mea
 There has been zero commercial or public production use to date. This repository is only a very small part of the private Ayurveda and Project Management codebase that EeshvarDasIKCM has written and uses privately
 There is zero revenue to date. Follow me on x.com/eeshvardasikcm and use the donate button to donate to my gofundme.
 -->
-# `holdings-simile` 0.2.0.beta1
+# `holdings-simile` 0.2.0.rc1
 holdingsSimile is a part of the <b>ayurvedaAndProjectManagement Language</b>. Holdings Simile is released here with most implementation still remaining private and not released. Holdings Simile (holdings-simile) is copyrighted 2023 by EeshvarDasIKCM.
 ## `Simile` concept
 Similes are used in <b>ayurvedaAndProjectManagement Language</b> similar to how generics are used in managed code languages. Right now, <i>holdingsSimile</i> is mostly a poetic opening because there are yet no concrete similes that ring true for my intent for the <i>holdings-simile</i>.
